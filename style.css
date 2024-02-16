@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.nav {
+    height: 100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.nav-part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav h3 {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 17px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.nav i {
+    font-size: 16px;
+    border: 1.5px solid black;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn2 {
+    color: white;
+    background-color: orangered;
+}
+
+#main>h1 {
+    font-size: 170px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img1 {
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3 {
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.btn-left {
+    position: absolute;
+    font-size: 17px;
+    left: 3%;
+    bottom: 5%;
+}
+.icon{
+    position: absolute;
+    font-size: 20px;
+    right: 3%;
+    bottom: 5%;
+}
